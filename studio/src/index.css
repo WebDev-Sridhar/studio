@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base Styles ─────────────────────────────────────────────── */
+@layer base {
+  :root {
+    --color-ivory: #FAF8F5;
+    --color-ivory-dark: #F0EDE7;
+    --color-charcoal: #1A1814;
+    --color-charcoal-mid: #2E2A24;
+    --color-stone: #8C8070;
+    --color-gold: #C9A96E;
+    --color-gold-light: #DCC89E;
+    
+    scroll-behavior: smooth;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ivory-100 text-charcoal-600 font-sans;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-ivory-dark);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-stone);
+    border-radius: 2px;
+  }
+
+  /* Selection */
+  ::selection {
+    background-color: var(--color-gold-light);
+    color: var(--color-charcoal);
+  }
+
+  /* Focus rings */
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  img {
+    @apply max-w-full;
+    display: block;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-light leading-editorial;
+  }
+
+  p {
+    @apply font-sans;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/* ─── Typography Utilities ────────────────────────────────────── */
+@layer components {
+  .text-display-xl {
+    @apply font-serif font-light;
+    font-size: clamp(3.5rem, 8vw, 8rem);
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+  }
+
+  .text-display-lg {
+    @apply font-serif font-light;
+    font-size: clamp(2.5rem, 5vw, 5.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .text-display-md {
+    @apply font-serif font-light;
+    font-size: clamp(2rem, 3.5vw, 3.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+  }
+
+  .text-display-sm {
+    @apply font-serif font-light;
+    font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+    line-height: 1.2;
+  }
+
+  .text-body-lg {
+    @apply font-sans font-light;
+    font-size: clamp(1rem, 1.2vw, 1.125rem);
+    line-height: 1.8;
+  }
+
+  .text-body {
+    @apply font-sans font-light;
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .text-body-sm {
+    @apply font-sans font-light;
+    font-size: 0.875rem;
+    line-height: 1.7;
+  }
+
+  .text-eyebrow {
+    @apply font-sans font-light uppercase tracking-widest text-stone-300;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+  }
+
+  .text-quote {
+    @apply font-serif;
+    font-style: italic;
+    font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+    line-height: 1.35;
+    font-weight: 300;
+  }
+
+  /* ─── Layout Utilities ─────────────────────────────────────── */
+  .container-editorial {
+    @apply mx-auto px-6 md:px-12 lg:px-20 max-w-8xl;
+  }
+
+  .container-tight {
+    @apply mx-auto px-6 md:px-12 lg:px-20 max-w-5xl;
+  }
+
+  /* ─── Section Spacing ──────────────────────────────────────── */
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-40;
+  }
+
+  .section-padding-sm {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  /* ─── Line/Divider ─────────────────────────────────────────── */
+  .divider-gold {
+    @apply w-12 h-px bg-gold-300 mb-8;
+  }
+
+  /* ─── Buttons ──────────────────────────────────────────────── */
+  .btn-primary {
+    @apply inline-flex items-center gap-3 font-sans font-light text-sm tracking-widest uppercase;
+    @apply bg-charcoal-600 text-ivory-100;
+    @apply px-8 py-4;
+    @apply transition-all duration-600 ease-expo-out;
+    letter-spacing: 0.15em;
+  }
+
+  .btn-primary:hover {
+    @apply bg-charcoal-500;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-3 font-sans font-light text-sm tracking-widest uppercase;
+    @apply border border-charcoal-600 text-charcoal-600;
+    @apply px-8 py-4;
+    @apply transition-all duration-600 ease-expo-out;
+    letter-spacing: 0.15em;
+  }
+
+  .btn-ghost:hover {
+    @apply bg-charcoal-600 text-ivory-100;
+  }
+
+  .btn-link {
+    @apply inline-flex items-center gap-2 font-sans font-light text-sm;
+    @apply text-charcoal-600;
+    @apply transition-all duration-400;
+    position: relative;
+  }
+
+  .btn-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-px bg-charcoal-600;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-link:hover::after {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+
+  /* ─── Image Treatments ─────────────────────────────────────── */
+  .img-hover-zoom {
+    @apply overflow-hidden;
+  }
+
+  .img-hover-zoom img {
+    @apply transition-transform duration-700 ease-expo-out;
+    transform: scale(1.0);
+  }
+
+  .img-hover-zoom:hover img {
+    transform: scale(1.04);
+  }
+
+  /* ─── Horizontal Scroll ────────────────────────────────────── */
+  .horizontal-scroll {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* ─── Nav ──────────────────────────────────────────────────── */
+  .nav-link {
+    @apply font-sans font-light text-sm text-charcoal-500 tracking-wide;
+    @apply transition-colors duration-300;
+    font-size: 0.8125rem;
+    letter-spacing: 0.06em;
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-0.5 left-0 w-full h-px bg-charcoal-600;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* ─── Custom Cursor ────────────────────────────────────────── */
+  .cursor-none * {
+    cursor: none !important;
+  }
+
+  /* ─── Gallery ──────────────────────────────────────────────── */
+  .gallery-item {
+    @apply overflow-hidden cursor-pointer;
+    position: relative;
+  }
+
+  .gallery-item::after {
+    content: '';
+    @apply absolute inset-0;
+    background: rgba(26, 24, 20, 0);
+    transition: background 0.4s ease;
+  }
+
+  .gallery-item:hover::after {
+    background: rgba(26, 24, 20, 0.08);
+  }
+
+  /* ─── Testimonial ──────────────────────────────────────────── */
+  .testimonial-quote::before {
+    content: '\201C';
+    @apply font-serif text-gold-300;
+    font-size: 5rem;
+    line-height: 0;
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    opacity: 0.6;
+  }
+
+  /* ─── Form ─────────────────────────────────────────────────── */
+  .form-field {
+    @apply w-full bg-transparent border-b border-charcoal-200;
+    @apply font-sans font-light text-charcoal-600;
+    @apply py-3 px-0 text-base;
+    @apply transition-colors duration-300;
+    @apply outline-none;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
+
+  .form-field:focus {
+    @apply border-charcoal-600;
+  }
+
+  .form-field::placeholder {
+    @apply text-stone-300 font-light;
+    font-size: 0.9rem;
+  }
+
+  .form-label {
+    @apply font-sans font-light text-xs uppercase tracking-widest text-stone-300 mb-2 block;
+    letter-spacing: 0.15em;
+    font-size: 0.65rem;
+  }
+
+  /* ─── Reduced Motion ───────────────────────────────────────── */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* ─── Grain overlay ────────────────────────────────────────── */
+  .grain-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.4;
+  }
+
+  /* ─── Photo overlay tint ───────────────────────────────────── */
+  .photo-overlay {
+    position: relative;
+  }
+
+  .photo-overlay::after {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(to bottom, transparent 40%, rgba(26, 24, 20, 0.35) 100%);
+    pointer-events: none;
+  }
+}
+
+/* ─── Utility Overrides ───────────────────────────────────────── */
+@layer utilities {
+  .will-change-transform {
+    will-change: transform;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .clip-reveal {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  .clip-full {
+    clip-path: inset(0 0% 0 0);
+  }
+
+  .writing-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

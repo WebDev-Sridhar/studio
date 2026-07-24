@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "title": "THE PICTURE HUT — Photography Service in Madurai",
+    "description": "THE PICTURE HUT is a highly rated photography service in Madurai, Tamil Nadu, known for wedding, candid, couple, event, corporate, and baby photography.",
+    "ogImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80",
+    "favicon": "/favicon.ico",
+    "themeColor": "#FAF8F5"
+  },
+  "brand": {
+    "name": "THE PICTURE HUT",
+    "wordmark": "THE PICTURE HUT",
+    "wordmarkSuffix": "",
+    "tagline": "Capturing moments that become memories",
+    "shortTagline": "Photography Service",
+    "logoAlt": "THE PICTURE HUT Photography"
+  },
+  "nav": {
+    "links": [
+      { "label": "Work", "href": "#work" },
+      { "label": "Services", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Book a Session",
+      "href": "#contact"
+    }
+  },
+  "hero": {
+    "eyebrow": "Wedding, Couple & Event Photography",
+    "headline": ["Your", "Moments,", "Beautifully", "Captured."],
+    "subheadline": "From candid wedding moments and couple portraits to events, corporate conferences, and baby photoshoots, we capture your most meaningful moments with professionalism, creativity, and care.",
+    "cta": {
+      "primary": { "label": "Explore Our Work", "href": "#work" },
+      "secondary": { "label": "Get in Touch", "href": "#contact" }
+    },
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1400&q=85",
+        "alt": "Bride and groom in soft natural light during golden hour"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1400&q=85",
+        "alt": "Couple sharing an intimate moment during their wedding"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1400&q=85",
+        "alt": "Romantic couple portrait captured during a photography session"
+      }
+    ],
+    "scrollIndicator": "Scroll to explore"
+  },
+  "philosophy": {
+    "eyebrow": "Our Philosophy",
+    "quote": "The best photographs are the moments that feel real.",
+    "body": "We believe photography is about more than simply taking pictures. It is about understanding people, making them feel comfortable, and preserving the genuine emotions that make every occasion unique. From a wedding celebration to a baby's first photoshoot or a corporate event, we aim to capture every moment with care and authenticity.",
+    "signature": "— The Picture Hut Team"
+  },
+  "featuredWork": {
+    "eyebrow": "Selected Work",
+    "headline": "Stories we've had the honour to capture",
+    "items": [
+      {
+        "id": "fw-01",
+        "title": "Wedding Stories",
+        "category": "Wedding Photography",
+        "location": "Madurai, Tamil Nadu",
+        "year": "2024",
+        "image": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=900&q=85",
+        "alt": "Bride and groom captured during a wedding celebration",
+        "aspectRatio": "portrait"
+      },
+      {
+        "id": "fw-02",
+        "title": "Couple Moments",
+        "category": "Couple Photography",
+        "location": "Madurai, Tamil Nadu",
+        "year": "2024",
+        "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=900&q=85",
+        "alt": "Couple embracing during a romantic photography session",
+        "aspectRatio": "landscape"
+      },
+      {
+        "id": "fw-03",
+        "title": "Candid Memories",
+        "category": "Candid Photography",
+        "location": "Madurai, Tamil Nadu",
+        "year": "2024",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=85",
+        "alt": "Candid wedding moment captured naturally",
+        "aspectRatio": "portrait"
+      },
+      {
+        "id": "fw-04",
+        "title": "Corporate Moments",
+        "category": "Corporate Photography",
+        "location": "Madurai, Tamil Nadu",
+        "year": "2024",
+        "image": "https://images.unsplash.com/photo-1497414826197-4166f61a8e14?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Professional corporate event photography",
+        "aspectRatio": "landscape"
+      },
+      {
+        "id": "fw-05",
+        "title": "Baby Moments",
+        "category": "Baby Photography",
+        "location": "Madurai, Tamil Nadu",
+        "year": "2024",
+        "image": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=900&q=85",
+        "alt": "Baby and family photography session",
+        "aspectRatio": "portrait"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What We Offer",
+    "headline": "Every moment deserves to be remembered",
+    "items": [
+      {
+        "id": "svc-01",
+        "number": "01",
+        "title": "Wedding & Candid Photography",
+        "tagline": "Your special day, captured authentically",
+        "description": "We capture the emotions, celebrations, people, and unforgettable moments that make your wedding unique. Our candid approach helps preserve genuine memories while documenting the story of your special day.",
+        "features": [
+          "Wedding photography",
+          "Candid photography",
+          "Wedding pictures",
+          "Emotional and natural moments",
+          "Professional photography coverage"
+        ],
+        "image": "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=85",
+        "alt": "Bride walking down the aisle during a wedding ceremony",
+        "startingPrice": "Contact us for pricing",
+        "cta": "Learn More"
+      },
+      {
+        "id": "svc-02",
+        "number": "02",
+        "title": "Couple Photography",
+        "tagline": "Beautifully capturing your connection",
+        "description": "Whether you're celebrating your relationship or simply creating memories together, we capture natural and meaningful moments that reflect the connection between two people.",
+        "features": [
+          "Couple photography",
+          "Romantic portraits",
+          "Candid couple moments",
+          "Natural photography sessions",
+          "Personalized photo sessions"
+        ],
+        "image": "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=800&q=85",
+        "alt": "Couple sharing a joyful moment during a photography session",
+        "startingPrice": "Contact us for pricing",
+        "cta": "Learn More"
+      },
+      {
+        "id": "svc-03",
+        "number": "03",
+        "title": "Events & Corporate Photography",
+        "tagline": "Professional coverage for important occasions",
+        "description": "From corporate conferences and professional events to celebrations and special occasions, we provide photography that captures the atmosphere, people, and important moments of your event.",
+        "features": [
+          "Event photography",
+          "Corporate photography",
+          "Corporate conference coverage",
+          "Professional event coverage",
+          "Candid event moments"
+        ],
+        "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=85",
+        "alt": "Professional event photography at a corporate gathering",
+        "startingPrice": "Contact us for pricing",
+        "cta": "Learn More"
+      },
+      {
+        "id": "svc-04",
+        "number": "04",
+        "title": "Baby & Family Photography",
+        "tagline": "Preserving the little moments that matter",
+        "description": "From a baby's first photoshoot to family memories, we create a comfortable and friendly experience while capturing precious moments that families can cherish for years to come.",
+        "features": [
+          "Baby photoshoots",
+          "Family photography",
+          "Friendly and approachable sessions",
+          "Personalized photography",
+          "Comfortable shooting experience"
+        ],
+        "image": "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=800&q=85",
+        "alt": "Family photography session capturing precious memories",
+        "startingPrice": "Contact us for pricing",
+        "cta": "Learn More"
+      }
+    ]
+  },
+  "storySequence": {
+    "eyebrow": "The Picture Hut Experience",
+    "headline": "Photography that puts you at ease",
+    "items": [
+      {
+        "id": "seq-01",
+        "number": "01",
+        "headline": "We listen to your ideas",
+        "body": "Every photoshoot is different. We take the time to understand your expectations, ideas, and the kind of memories you want to create so that the final photographs feel personal to you.",
+        "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=900&q=85",
+        "alt": "Couple discussing ideas during a photography session",
+        "imagePosition": "right"
+      },
+      {
+        "id": "seq-02",
+        "number": "02",
+        "headline": "We make you feel comfortable",
+        "body": "Our friendly, professional, and approachable team creates a relaxed environment where you can be yourself. This helps us capture genuine expressions and natural moments.",
+        "image": "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=900&q=85",
+        "alt": "Photographer capturing a candid moment during an event",
+        "imagePosition": "left"
+      },
+      {
+        "id": "seq-03",
+        "number": "03",
+        "headline": "We capture memories that last",
+        "body": "From weddings and couple sessions to corporate events and baby photoshoots, we focus on delivering beautiful photographs that allow you to relive the moments for years to come.",
+        "image": "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=900&q=85",
+        "alt": "Family looking through photographs and remembering special moments",
+        "imagePosition": "right"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About The Picture Hut",
+    "headline": "Professional photography with a personal touch",
+    "bio": [
+      "THE PICTURE HUT is a photography service based in Iyer Bungalow, Madurai, Tamil Nadu. The team provides photography services for a range of occasions, including weddings, candid moments, couple sessions, events, corporate conferences, and baby photoshoots.",
+      "Customer reviews consistently highlight the team's professional approach, friendly and humble service, technical delivery, and ability to make clients feel comfortable throughout their photography sessions.",
+      "The Picture Hut has received a 4.9-star rating from 149 Google reviews. Customers have praised the quality of the photographs, economical pricing, genuine service, and the team's willingness to listen to and incorporate client ideas."
+    ],
+    "name": "Prakash",
+    "role": "Photographer",
+    "image": "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=1158&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imageAlt": "Photographer at The Picture Hut",
+    "signature": "Prakash",
+    "awardsLabel": "Customer Recognition",
+    "awards": [
+      "4.9 Google Rating",
+      "149 Google Reviews",
+      "Wedding Photography",
+      "Event Photography",
+      "Corporate Photography"
+    ],
+    "stats": [
+      { "number": "4.9", "label": "Google Rating" },
+      { "number": "149", "label": "Google Reviews" },
+      { "number": "24/7", "label": "Listed Open Hours" }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "headline": "A few frames from our work",
+    "filterLabel": "Filter by",
+    "categories": [
+      "All",
+      "Weddings",
+      "Couples",
+      "Events",
+      "Corporate",
+      "Baby & Family",
+      "Details"
+    ],
+    "images": [
+      {
+        "id": "g-01",
+        "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+        "alt": "Bride and groom sharing a special moment during their wedding",
+        "category": "Weddings",
+        "width": 2,
+        "height": 3
+      },
+      {
+        "id": "g-02",
+        "src": "https://images.unsplash.com/photo-1529636798458-92182e662485?w=800&q=80",
+        "alt": "Couple enjoying a romantic photography session",
+        "category": "Couples",
+        "width": 3,
+        "height": 2
+      },
+      {
+        "id": "g-03",
+        "src": "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=800&q=80",
+        "alt": "Portrait captured during a professional photography session",
+        "category": "Baby & Family",
+        "width": 2,
+        "height": 3
+      },
+      {
+        "id": "g-04",
+        "src": "https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=800&q=80",
+        "alt": "Wedding details captured in close-up photography",
+        "category": "Details",
+        "width": 3,
+        "height": 2
+      },
+      {
+        "id": "g-05",
+        "src": "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800&q=80",
+        "alt": "Candid moment captured during a wedding celebration",
+        "category": "Weddings",
+        "width": 2,
+        "height": 3
+      },
+      {
+        "id": "g-06",
+        "src": "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=800&q=80",
+        "alt": "Couple laughing together during a photography session",
+        "category": "Couples",
+        "width": 3,
+        "height": 2
+      },
+      {
+        "id": "g-07",
+        "src": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+        "alt": "Professional portrait photography",
+        "category": "Baby & Family",
+        "width": 2,
+        "height": 3
+      },
+      {
+        "id": "g-08",
+        "src": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80",
+        "alt": "Wedding event photography capturing a memorable celebration",
+        "category": "Weddings",
+        "width": 3,
+        "height": 2
+      },
+      {
+        "id": "g-09",
+        "src": "https://images.unsplash.com/photo-1706741921974-967b3590743c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Detailed photography of wedding flowers and decorations",
+        "category": "Details",
+        "width": 2,
+        "height": 3
+      },
+      {
+        "id": "g-10",
+        "src": "https://images.unsplash.com/photo-1530227222086-4037fdd5e723?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Couple walking together during a romantic photography session",
+        "category": "Couples",
+        "width": 3,
+        "height": 2
+      },
+      {
+        "id": "g-11",
+        "src": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=800&q=80",
+        "alt": "Portrait photography captured outdoors",
+        "category": "Baby & Family",
+        "width": 2,
+        "height": 3
+      },
+      {
+        "id": "g-12",
+        "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&q=80",
+        "alt": "Candid wedding photography capturing a genuine emotional moment",
+        "category": "Weddings",
+        "width": 3,
+        "height": 2
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Google Reviews",
+    "headline": "Words from the people we've photographed",
+    "items": [
+      {
+        "id": "t-01",
+        "quote": "My go to choice of photography from madurai. Very humble and serve you the right technical delivery. We booked initially for a corporate conference and we are overwhelmed with their services, now we constantly looking for their appointments when we look for photography 😀🙏🏽 Thanks Praksh and team for your beautiful work😍",
+        "client": "Luxa Media",
+        "event": "Corporate Conference",
+        "location": "Madurai, Tamil Nadu"
+      },
+      {
+        "id": "t-02",
+        "quote": "Mr.prakash is Very genuine and gentle with his profession, mind blowing pics he gives 🙏",
+        "client": "Roopa Mol K",
+        "event": "Photography Service",
+        "location": "Madurai, Tamil Nadu"
+      },
+      {
+        "id": "t-03",
+        "quote": "Made our babies photoshoot today and i was happy share my experience. Professional , friendly and approachable demeanor,l which made us feel at ease throughout the session. They patiently listened to our ideas and incorporated them seamlessly into the shoot. Even price is soo economical. Will contact next event for sure.",
+        "client": "Gayathri Gowri",
+        "event": "Baby Photoshoot",
+        "location": "Madurai, Tamil Nadu"
+      },
+      {
+        "id": "t-04",
+        "quote": "It provides an excellent service also has a good hard working team.",
+        "client": "Google Customer",
+        "event": "Photography Service",
+        "location": "Madurai, Tamil Nadu"
+      },
+      {
+        "id": "t-05",
+        "quote": "Experienced a great work with humble people!",
+        "client": "Google Customer",
+        "event": "Photography Service",
+        "location": "Madurai, Tamil Nadu"
+      },
+      {
+        "id": "t-06",
+        "quote": "Best quality at feasible rate.",
+        "client": "Google Customer",
+        "event": "Photography Service",
+        "location": "Madurai, Tamil Nadu"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "The Process",
+    "headline": "From your first message to your final memories",
+    "items": [
+      {
+        "step": "01",
+        "title": "Inquiry & Discovery",
+        "description": "Tell us about your photography requirements, event, or special occasion. Get in touch with The Picture Hut to discuss your ideas and expectations."
+      },
+      {
+        "step": "02",
+        "title": "Understanding Your Vision",
+        "description": "We listen to your ideas and understand what you want from your photography session, whether it is a wedding, couple session, event, corporate conference, or baby photoshoot."
+      },
+      {
+        "step": "03",
+        "title": "Planning Your Session",
+        "description": "We discuss the details of your photography requirements and plan the session around your occasion, preferences, and expectations."
+      },
+      {
+        "step": "04",
+        "title": "The Photography Session",
+        "description": "Our professional and approachable team works to make you feel comfortable while capturing genuine, natural, and memorable moments."
+      },
+      {
+        "step": "05",
+        "title": "Professional Delivery",
+        "description": "We focus on delivering quality photographs that preserve the emotions and memories of your special occasion."
+      },
+      {
+        "step": "06",
+        "title": "Memories to Cherish",
+        "description": "Your photographs become lasting memories that allow you to revisit your wedding, event, celebration, or special moment for years to come."
+      }
+    ]
+  },
+  "inquiry": {
+    "eyebrow": "Let's Create Memories",
+    "headline": "Let's capture your story",
+    "subtext": "Whether you're planning a wedding, celebrating your relationship, organizing an event, or looking for a baby photoshoot, get in touch with The Picture Hut to discuss your photography requirements.",
+    "formFields": [
+      {
+        "name": "name",
+        "label": "Your Name",
+        "type": "text",
+        "placeholder": "First & Last Name"
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "your@email.com"
+      },
+      {
+        "name": "eventType",
+        "label": "Type of Photography",
+        "type": "select",
+        "options": [
+          "Wedding Photography",
+          "Candid Photography",
+          "Couple Photography",
+          "Event Photography",
+          "Corporate Photography",
+          "Baby Photoshoot",
+          "Family Photography",
+          "Other"
+        ]
+      },
+      {
+        "name": "eventDate",
+        "label": "Preferred Date",
+        "type": "date",
+        "placeholder": ""
+      },
+      {
+        "name": "location",
+        "label": "Location / Venue",
+        "type": "text",
+        "placeholder": "City, Area or Venue Name"
+      },
+      {
+        "name": "message",
+        "label": "Tell us about your photography needs",
+        "type": "textarea",
+        "placeholder": "Share anything you'd like us to know about your event, vision, or photography requirements..."
+      }
+    ],
+    "cta": "Send an Inquiry",
+    "note": "Contact us to discuss your photography requirements and availability.",
+    "contactDetails": {
+      "email": "hello@lumiereandco.com",
+      "phone": "095974 92472",
+      "whatsapp": "09597492472",
+      "location": "2/230, Kannanenthal Main Rd, Sasi Nagar, Ezhil Nagar, Iyer Bungalow, Madurai, Tamil Nadu 625014"
+    }
+  },
+  "social": {
+    "instagram": {
+      "handle": "@lumiereandco",
+      "url": "https://instagram.com"
+    },
+    "facebook": {
+      "url": "https://facebook.com"
+    },
+    "pinterest": {
+      "url": "https://pinterest.com"
+    },
+    "vimeo": {
+      "url": "https://vimeo.com"
+    }
+  },
+  "footer": {
+    "tagline": "Capturing moments that become memories.",
+    "description": "Wedding, candid, couple, event, corporate, baby, and family photography services based in Iyer Bungalow, Madurai, Tamil Nadu.",
+    "copyright": "© 2026 THE PICTURE HUT. All rights reserved.",
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          {
+            "label": "Wedding & Candid Photography",
+            "href": "#services"
+          },
+          {
+            "label": "Couple Photography",
+            "href": "#services"
+          },
+          {
+            "label": "Events & Corporate Photography",
+            "href": "#services"
+          },
+          {
+            "label": "Baby & Family Photography",
+            "href": "#services"
+          }
+        ]
+      },
+      {
+        "title": "Studio",
+        "links": [
+          {
+            "label": "Our Work",
+            "href": "#work"
+          },
+          {
+            "label": "About The Picture Hut",
+            "href": "#about"
+          },
+          {
+            "label": "The Process",
+            "href": "#process"
+          },
+          {
+            "label": "Gallery",
+            "href": "#gallery"
+          }
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          {
+            "label": "Get in Touch",
+            "href": "#contact"
+          },
+          {
+            "label": "Instagram",
+            "href": "https://instagram.com"
+          },
+          {
+            "label": "Facebook",
+            "href": "https://facebook.com"
+          }
+        ]
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "#"
+      }
+    ]
+  }
+}
