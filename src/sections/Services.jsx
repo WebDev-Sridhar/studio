@@ -87,7 +87,7 @@ function ServiceItem({ service, index }) {
             style={{ letterSpacing: '0.12em', fontSize: '0.7rem' }}>
             {service.startingPrice}
           </p>
-          <LinkButton href="#contact">{service.cta}</LinkButton>
+          {/* <LinkButton href="#contact">{service.cta}</LinkButton> */}
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import siteData from '../../data/siteData.json';
+import siteData from '../../data/Yazhistudio.json';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);

@@ -1,26 +1,41 @@
 {
   "meta": {
-    "title": "THE PICTURE HUT — Photography Service in Madurai",
-    "description": "THE PICTURE HUT is a highly rated photography service in Madurai, Tamil Nadu, known for wedding, candid, couple, event, corporate, and baby photography.",
+    "title": "Yazhistudio — Photography Service in Madurai",
+    "description": "Yazhistudio is a photography service in Kalavasal, Madurai, Tamil Nadu, specializing in high-end portraiture and visual storytelling with a movie-style aesthetic.",
     "ogImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80",
     "favicon": "/favicon.ico",
     "themeColor": "#FAF8F5"
   },
   "brand": {
-    "name": "THE PICTURE HUT",
-    "wordmark": "THE PICTURE HUT",
+    "name": "Yazhistudio",
+    "wordmark": "Yazhistudio",
     "wordmarkSuffix": "",
-    "tagline": "Capturing moments that become memories",
+    "tagline": "Where Every Frame Tells a Story.",
     "shortTagline": "Photography Service",
-    "logoAlt": "THE PICTURE HUT Photography"
+    "logoAlt": "Yazhistudio Photography"
   },
   "nav": {
     "links": [
-      { "label": "Work", "href": "#work" },
-      { "label": "Services", "href": "#services" },
-      { "label": "About", "href": "#about" },
-      { "label": "Gallery", "href": "#gallery" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Gallery",
+        "href": "#gallery"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ],
     "cta": {
       "label": "Book a Session",
@@ -28,12 +43,23 @@
     }
   },
   "hero": {
-    "eyebrow": "Wedding, Couple & Event Photography",
-    "headline": ["Your", "Moments,", "Beautifully", "Captured."],
-    "subheadline": "From candid wedding moments and couple portraits to events, corporate conferences, and baby photoshoots, we capture your most meaningful moments with professionalism, creativity, and care.",
+    "eyebrow": "High-End Portraiture & Visual Storytelling",
+    "headline": [
+      "Your",
+      "Moments,",
+      "Beautifully",
+      "Captured."
+    ],
+    "subheadline": "We don’t just take pictures; we capture moments that feel like cinema. Specializing in high-end portraiture and visual storytelling, Yazhistudio blends dramatic lighting with artistic composition to create timeless imagery.",
     "cta": {
-      "primary": { "label": "Explore Our Work", "href": "#work" },
-      "secondary": { "label": "Get in Touch", "href": "#contact" }
+      "primary": {
+        "label": "Explore Our Work",
+        "href": "#work"
+      },
+      "secondary": {
+        "label": "Get in Touch",
+        "href": "#contact"
+      }
     },
     "images": [
       {
@@ -53,9 +79,9 @@
   },
   "philosophy": {
     "eyebrow": "Our Philosophy",
-    "quote": "The best photographs are the moments that feel real.",
-    "body": "We believe photography is about more than simply taking pictures. It is about understanding people, making them feel comfortable, and preserving the genuine emotions that make every occasion unique. From a wedding celebration to a baby's first photoshoot or a corporate event, we aim to capture every moment with care and authenticity.",
-    "signature": "— The Picture Hut Team"
+    "quote": "Where Every Frame Tells a Story.",
+    "body": "At Yazhistudio, we don’t just take pictures; we capture moments that feel like cinema. Our studio blends dramatic lighting with artistic composition to create timeless imagery. Whether it’s a personal milestone or a brand narrative, we bring a director’s eye to every session so your story is told with depth and emotion.",
+    "signature": "— Yazhistudio"
   },
   "featuredWork": {
     "eyebrow": "Selected Work",
@@ -225,30 +251,33 @@
     ]
   },
   "about": {
-    "eyebrow": "About The Picture Hut",
-    "headline": "Professional photography with a personal touch",
+    "eyebrow": "About Yazhistudio",
+    "headline": "Photography with a cinematic point of view",
     "bio": [
-      "THE PICTURE HUT is a photography service based in Iyer Bungalow, Madurai, Tamil Nadu. The team provides photography services for a range of occasions, including weddings, candid moments, couple sessions, events, corporate conferences, and baby photoshoots.",
-      "Customer reviews consistently highlight the team's professional approach, friendly and humble service, technical delivery, and ability to make clients feel comfortable throughout their photography sessions.",
-      "The Picture Hut has received a 4.9-star rating from 149 Google reviews. Customers have praised the quality of the photographs, economical pricing, genuine service, and the team's willingness to listen to and incorporate client ideas."
+      "Yazhistudio is a photography service based at 24, 106 A, Vellaikannu Theatre Rd, near Smart Bazar SMOKEHUB, Kalavasal, Madurai, Tamil Nadu 625016.",
+      "The studio specializes in high-end portraiture and visual storytelling, using dramatic lighting and artistic composition to create timeless imagery.",
+      "Yazhistudio is described as a fit for portrait photographers, wedding studios, and those who focus on movie-style aesthetics, with experience spanning over 15 years across Tamil Nadu."
     ],
-    "name": "Prakash",
-    "role": "Photographer",
+  "name": "Sofia Reyes",
+    "role": "Lead Photographer & Creative Director",
     "image": "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=1158&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "imageAlt": "Photographer at The Picture Hut",
-    "signature": "Prakash",
-    "awardsLabel": "Customer Recognition",
-    "awards": [
-      "4.9 Google Rating",
-      "149 Google Reviews",
-      "Wedding Photography",
-      "Event Photography",
-      "Corporate Photography"
-    ],
+    "imageAlt": "Sofia Reyes, lead photographer at Lumière & Co.",
+    "signature": "Sofia",
+    "awardsLabel": "Featured in",
+    "awards": ["Vogue Weddings", "Harper's Bazaar Brides", "The Knot", "Junebug Weddings", "Ruffled Blog"],
     "stats": [
-      { "number": "4.9", "label": "Google Rating" },
-      { "number": "149", "label": "Google Reviews" },
-      { "number": "24/7", "label": "Listed Open Hours" }
+      {
+        "number": "4.8",
+        "label": "Google Rating"
+      },
+      {
+        "number": "26",
+        "label": "Google Reviews"
+      },
+      {
+        "number": "15+",
+        "label": "Years Across Tamil Nadu"
+      }
     ]
   },
   "gallery": {
@@ -450,7 +479,7 @@
   "inquiry": {
     "eyebrow": "Let's Create Memories",
     "headline": "Let's capture your story",
-    "subtext": "Whether you're planning a wedding, celebrating your relationship, organizing an event, or looking for a baby photoshoot, get in touch with The Picture Hut to discuss your photography requirements.",
+    "subtext": "Whether it’s a personal milestone or a brand narrative, get in touch with Yazhistudio to create visual stories with depth, emotion, and a cinematic feel.",
     "formFields": [
       {
         "name": "name",
@@ -501,10 +530,10 @@
     "cta": "Send an Inquiry",
     "note": "Contact us to discuss your photography requirements and availability.",
     "contactDetails": {
-      "email": "hello@thepicturehut.com",
-      "phone": "095974 92472",
-      "whatsapp": "09597492472",
-      "location": "2/230, Kannanenthal Main Rd, Sasi Nagar, Ezhil Nagar, Iyer Bungalow, Madurai, Tamil Nadu 625014"
+      "email": "hello@Yazhistudio.com",
+      "phone": "090478 86261",
+      "whatsapp": "09047886261",
+      "location": "Yazhistudio, 24, 106 A, Vellaikannu Theatre Rd, near Smart Bazar SMOKEHUB, Kalavasal, Madurai, Tamil Nadu 625016"
     }
   },
   "social": {
@@ -523,9 +552,9 @@
     }
   },
   "footer": {
-    "tagline": "Capturing moments that become memories.",
-    "description": "Wedding, candid, couple, event, corporate, baby, and family photography services based in Iyer Bungalow, Madurai, Tamil Nadu.",
-    "copyright": "© 2026 THE PICTURE HUT. All rights reserved.",
+    "tagline": "Where Every Frame Tells a Story.",
+    "description": "Yazhistudio photography service in Kalavasal, Madurai, specializing in high-end portraiture and visual storytelling with a movie-style aesthetic.",
+    "copyright": "© 2026 Yazhistudio. All rights reserved.",
     "columns": [
       {
         "title": "Services",

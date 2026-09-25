@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { FadeUp } from '../components/ui/AnimatedText';
 import { Button } from '../components/ui/Button';
-import siteData from '../data/siteData.json';
+import siteData from '../data/Yazhistudio.json';
 
 export default function Inquiry() {
   const { inquiry } = siteData;
@@ -15,13 +15,37 @@ export default function Inquiry() {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission (no backend in this demo)
-    await new Promise((r) => setTimeout(r, 1200));
+
+    // Build a nicely formatted WhatsApp message
+    const lines = [
+      'New Photography Enquiry',
+      '━━━━━━━━━━━━━━━━━━━━',
+      `Name: ${formData.name || '—'}`,
+      `Email: ${formData.email || '—'}`,
+      `Photography Type: ${formData.eventType || '—'}`,
+      `Preferred Date: ${formData.eventDate || '—'}`,
+      `Location / Venue: ${formData.location || '—'}`,
+      '',
+      `Message:`,
+      formData.message || '—',
+      '━━━━━━━━━━━━━━━━━━━━',
+      '_Sent via Lumière & Co. website_',
+    ];
+
+    const text = encodeURIComponent(lines.join('\n'));
+
+    // Convert 09597492472 → 919597492472 (India country code)
+    const rawNumber = inquiry.contactDetails.whatsapp.replace(/^0/, '91').replace(/\s/g, '');
+    const waUrl = `https://wa.me/${rawNumber}?text=${text}`;
+
     setIsSubmitting(false);
     setSubmitted(true);
+
+    // Open WhatsApp in a new tab
+    window.open(waUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -112,10 +136,10 @@ export default function Inquiry() {
                 </div>
                 <h3 className="font-serif font-light text-charcoal-600 mb-4"
                   style={{ fontSize: 'clamp(1.5rem, 2.5vw, 2rem)' }}>
-                  Thank you for reaching out.
+                  Opening WhatsApp for you.
                 </h3>
                 <p className="text-body text-stone-400">
-                  We've received your inquiry and will be in touch within 24 hours.
+                  Your enquiry details have been pre-filled in WhatsApp. Just hit send to reach us directly!
                 </p>
               </motion.div>
             ) : (
@@ -123,7 +147,6 @@ export default function Inquiry() {
                 <form
                   onSubmit={handleSubmit}
                   className="space-y-8"
-                  noValidate
                   aria-label="Inquiry form"
                 >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -165,7 +188,7 @@ function FormField({ field, onChange }) {
     id: field.name,
     name: field.name,
     onChange,
-    required: true,
+    required: field.required,
     'aria-label': field.label,
   };
 

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FadeUp } from '../components/ui/AnimatedText';
-import siteData from '../data/siteData.json';
+import siteData from '../data/Yazhistudio.json';
 
 export default function About() {
   const { about } = siteData;

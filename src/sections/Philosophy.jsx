@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { FadeUp } from '../components/ui/AnimatedText';
-import siteData from '../data/siteData.json';
+import siteData from '../data/Yazhistudio.json';
 
 export default function Philosophy() {
   const { philosophy } = siteData;
@@ -86,7 +86,7 @@ export default function Philosophy() {
                   <div className="mt-4">
                     <span className="font-serif font-light text-ivory-300"
                       style={{ fontSize: '6rem', lineHeight: 1, letterSpacing: '-0.04em' }}>
-                      L
+                      YS
                     </span>
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FadeUp } from '../ui/AnimatedText';
-import siteData from '../../data/siteData.json';
+import siteData from '../../data/Yazhistudio.json';
 
 // Custom SVG social icons
 const InstagramIcon = () => (

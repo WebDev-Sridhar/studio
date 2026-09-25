@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { motion, useScroll } from 'framer-motion';
+import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { FadeUp } from '../components/ui/AnimatedText';
 import { LinkButton } from '../components/ui/Button';
 import siteData from '../data/siteData.json';
@@ -7,53 +7,80 @@ import siteData from '../data/siteData.json';
 
 export default function FeaturedWork() {
   const { featuredWork } = siteData;
-  const scrollRef = useRef(null);
 
-  const { scrollXProgress } = useScroll({ container: scrollRef });
+  // Ref on the outer sticky container that defines the scroll-driven range
+  const sectionRef = useRef(null);
+
+  // Track vertical scroll progress through this section
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ['start start', 'end end'],
+  });
+
+  // Smooth spring so the gallery glides rather than snapping
+  const smoothProgress = useSpring(scrollYProgress, {
+    stiffness: 60,
+    damping: 20,
+    restDelta: 0.001,
+  });
+
+  // Map 0→1 progress to a leftward translation.
+  // Negative end value = how far the strip slides left (tune as needed).
+  const x = useTransform(smoothProgress, [0, 1], ['0%', '-55%']);
 
   return (
-    <section id="work" className="bg-ivory-100 overflow-hidden" aria-label="Featured Work">
-      {/* Header */}
-      <div className="container-editorial pt-20 md:pt-28 pb-14 md:pb-16">
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-          <div>
-            <FadeUp>
-              <span className="text-eyebrow mb-4 block">{featuredWork.eyebrow}</span>
-            </FadeUp>
-            <FadeUp delay={0.1}>
-              <h2 className="text-display-md text-charcoal-600 text-balance">
-                {featuredWork.headline}
-              </h2>
+    // Tall outer section — its height controls how long the user scrolls
+    <section
+      ref={sectionRef}
+      id="work"
+      className="bg-ivory-100"
+      aria-label="Featured Work"
+      style={{ height: '300vh' }}  /* extra scroll room */
+    >
+      {/* Sticky viewport — stays in view while user scrolls through the tall section */}
+      <div className="sticky top-0 h-screen overflow-hidden flex flex-col justify-start">
+
+        {/* Header */}
+        <div className="pt-20 md:pt-28 pb-14 md:pb-16 px-6 md:px-12 lg:px-20 w-full">
+          <div className="flex flex-row items-end justify-between gap-6 w-full">
+            <div className="flex flex-col items-start">
+              <FadeUp>
+                <span className="text-eyebrow mb-4 block">{featuredWork.eyebrow}</span>
+              </FadeUp>
+              <FadeUp delay={0.1}>
+                <h2 className="text-display-md text-charcoal-600 text-balance">
+                  {featuredWork.headline}
+                </h2>
+              </FadeUp>
+            </div>
+            <FadeUp delay={0.2}>
+              <LinkButton href="#gallery">View all work</LinkButton>
             </FadeUp>
           </div>
-          <FadeUp delay={0.2}>
-            <LinkButton href="#gallery">View all work</LinkButton>
-          </FadeUp>
         </div>
-      </div>
 
-      {/* Horizontal Scroll Gallery */}
-      <div
-        ref={scrollRef}
-        className="horizontal-scroll pl-6 md:pl-12 lg:pl-20 pb-16 md:pb-24"
-        role="region"
-        aria-label="Featured photography work"
-      >
-        <div className="flex gap-5 md:gap-7" style={{ width: 'max-content', paddingRight: '3rem' }}>
-          {featuredWork.items.map((item, i) => (
-            <FeaturedItem key={item.id} item={item} index={i} />
-          ))}
-        </div>
-      </div>
-
-      {/* Scroll progress indicator */}
-      <div className="container-editorial pb-6">
-        <div className="w-full h-px bg-ivory-300 relative">
+        {/* Horizontally-translating gallery strip */}
+        <div className="overflow-hidden pl-6 md:pl-12 lg:pl-20 flex-1 flex items-center">
           <motion.div
-            className="absolute left-0 top-0 h-full bg-charcoal-400"
-            style={{ scaleX: scrollXProgress, transformOrigin: 'left' }}
-          />
+            className="flex gap-5 md:gap-7"
+            style={{ x, width: 'max-content', paddingRight: '3rem', willChange: 'transform' }}
+          >
+            {featuredWork.items.map((item, i) => (
+              <FeaturedItem key={item.id} item={item} index={i} />
+            ))}
+          </motion.div>
         </div>
+
+        {/* Scroll progress indicator */}
+        <div className="container-editorial py-6">
+          <div className="w-full h-px bg-ivory-300 relative">
+            <motion.div
+              className="absolute left-0 top-0 h-full bg-charcoal-400"
+              style={{ scaleX: smoothProgress, transformOrigin: 'left' }}
+            />
+          </div>
+        </div>
+
       </div>
     </section>
   );
