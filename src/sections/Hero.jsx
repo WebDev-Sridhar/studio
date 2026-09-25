@@ -140,14 +140,14 @@ export default function Hero() {
             <Button
               href={hero.cta.primary.href}
               onClick={() => handleNavClick(hero.cta.primary.href)}
-              className="bg-ivory-100 text-charcoal-600 hover:bg-ivory-200"
+              className="bg-ivory-100 text-charcoal-600 hover:bg-ivory-200 w-fit"
             >
               {hero.cta.primary.label}
             </Button>
             <GhostButton
               href={hero.cta.secondary.href}
               onClick={() => handleNavClick(hero.cta.secondary.href)}
-              className="border-ivory-200 text-ivory-100 hover:bg-ivory-100/10"
+              className="border-ivory-200 text-ivory-100 hover:bg-ivory-100/10 w-fit"
             >
               {hero.cta.secondary.label}
             </GhostButton>

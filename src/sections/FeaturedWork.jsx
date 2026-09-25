@@ -26,16 +26,16 @@ export default function FeaturedWork() {
 
   // Map 0→1 progress to a leftward translation.
   // Negative end value = how far the strip slides left (tune as needed).
-  const x = useTransform(smoothProgress, [0, 1], ['0%', '-55%']);
+  const x = useTransform(smoothProgress, [0, 1], ['0%', '-70%']);
 
   return (
     // Tall outer section — its height controls how long the user scrolls
     <section
       ref={sectionRef}
       id="work"
-      className="bg-ivory-100"
+      className="bg-ivory-100 h-[300vh]"
       aria-label="Featured Work"
-      style={{ height: '300vh' }}  /* extra scroll room */
+      /* extra scroll room */
     >
       {/* Sticky viewport — stays in view while user scrolls through the tall section */}
       <div className="sticky top-0 h-screen overflow-hidden flex flex-col justify-start">

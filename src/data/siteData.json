@@ -38,15 +38,15 @@
     },
     "images": [
       {
-        "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1400&q=85",
+        "src": "https://images.unsplash.com/photo-1671852780881-24dcbe190bfc?q=80&w=1254&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Bride and groom in soft natural light during golden hour"
       },
       {
-        "src": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1400&q=85",
+        "src": "https://images.unsplash.com/photo-1767333586238-5fe2e8e62b0e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Couple sharing an intimate moment at their wedding ceremony"
       },
       {
-        "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1400&q=85",
+        "src": "https://images.unsplash.com/photo-1748925702797-12d3a7a9f5fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Romantic couple portrait in a sunlit field"
       }
     ],
@@ -68,7 +68,7 @@
         "category": "Wedding",
         "location": "Tuscany, Italy",
         "year": "2024",
-        "image": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=900&q=85",
+        "image": "https://images.unsplash.com/photo-1681717002184-aa75cef11c94?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Bride and groom walking through Tuscany vineyard at golden hour",
         "aspectRatio": "portrait"
       },
@@ -88,7 +88,7 @@
         "category": "Wedding",
         "location": "Central Park, New York",
         "year": "2023",
-        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=85",
+        "image": "https://images.unsplash.com/photo-1755676862427-a2701a2a571d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Intimate wedding ceremony under the trees in Central Park",
         "aspectRatio": "portrait"
       },
@@ -131,7 +131,7 @@
           "Online gallery within 6 weeks",
           "Premium print collection available"
         ],
-        "image": "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=85",
+        "image": "https://images.unsplash.com/photo-1671852781674-c7dca34a1964?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Bride walking down the aisle in soft cathedral light",
         "startingPrice": "Starting from $4,800",
         "cta": "Learn More"
@@ -167,7 +167,7 @@
           "Brand & personal identity shoots",
           "Same-day preview selection"
         ],
-        "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=85",
+        "image": "https://images.unsplash.com/photo-1600149865286-813f4dec4b91?q=80&w=677&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Editorial portrait of a woman in dramatic studio lighting",
         "startingPrice": "Starting from $800",
         "cta": "Learn More"
@@ -201,7 +201,7 @@
         "number": "03",
         "headline": "We give you images that endure",
         "body": "Your final gallery is not just a collection of photos. It is an heirloom — a curated sequence of images that tells your story from beginning to end, designed to be treasured across generations.",
-        "image": "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=900&q=85",
+        "image": "https://images.unsplash.com/photo-1645497265284-f2cf176bcb6c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG8lMjBhbGJ1bXN8ZW58MHwxfDB8fHwy",
         "alt": "Couple reviewing their wedding photo album together with joy",
         "imagePosition": "right"
       }
@@ -217,7 +217,7 @@
     ],
     "name": "Sofia Reyes",
     "role": "Lead Photographer & Creative Director",
-    "image": "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=1158&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image":"https://images.unsplash.com/photo-1711473726207-49d01e3aafac?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageAlt": "Sofia Reyes, lead photographer at Lumière & Co.",
     "signature": "Sofia",
     "awardsLabel": "Featured in",
@@ -236,7 +236,7 @@
     "images": [
       {
         "id": "g-01",
-        "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+        "src":"https://images.unsplash.com/photo-1753687748127-f8051b69e20b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Bride and groom sharing first dance in warm candlelight",
         "category": "Weddings",
         "width": 2,
@@ -244,7 +244,7 @@
       },
       {
         "id": "g-02",
-        "src": "https://images.unsplash.com/photo-1529636798458-92182e662485?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1663852490990-e93fe2dea86a?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Engagement couple portrait in golden meadow",
         "category": "Couples",
         "width": 3,
@@ -252,7 +252,7 @@
       },
       {
         "id": "g-03",
-        "src": "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1629113130774-c5c13e45cd59?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Intimate bridal portrait in a garden",
         "category": "Portraits",
         "width": 2,
@@ -260,15 +260,15 @@
       },
       {
         "id": "g-04",
-        "src": "https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=800&q=80",
-        "alt": "Wedding rings close-up with soft bokeh flowers",
+        "src": "https://images.unsplash.com/photo-1612945578381-6481cdd73b0a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Wedding bangles close-up",
         "category": "Details",
         "width": 3,
         "height": 2
       },
       {
         "id": "g-05",
-        "src": "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1542042161784-26ab9e041e89?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Bride walking down the aisle flanked by guests",
         "category": "Weddings",
         "width": 2,
@@ -276,7 +276,7 @@
       },
       {
         "id": "g-06",
-        "src": "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1677770100172-e907beab5b97?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Couple laughing together during engagement session",
         "category": "Couples",
         "width": 3,
@@ -284,7 +284,7 @@
       },
       {
         "id": "g-07",
-        "src": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1714595747121-7067706bc557?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Black and white studio portrait with dramatic lighting",
         "category": "Portraits",
         "width": 2,
@@ -292,7 +292,7 @@
       },
       {
         "id": "g-08",
-        "src": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1654764746504-c6772be46e0a?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Wedding ceremony under flower arch in natural setting",
         "category": "Weddings",
         "width": 3,
@@ -308,7 +308,7 @@
       },
       {
         "id": "g-10",
-        "src": "https://images.unsplash.com/photo-1530227222086-4037fdd5e723?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "src": "https://images.unsplash.com/photo-1767333586238-5fe2e8e62b0e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Couple walking hand in hand on a misty morning",
         "category": "Couples",
         "width": 3,
@@ -316,7 +316,7 @@
       },
       {
         "id": "g-11",
-        "src": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1740575836581-788e83263d0b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Outdoor portrait of bride with dramatic veil in the wind",
         "category": "Portraits",
         "width": 2,
@@ -324,12 +324,29 @@
       },
       {
         "id": "g-12",
-        "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&q=80",
+        "src": "https://images.unsplash.com/photo-1744804298054-97951257bbfa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "alt": "Candid moment of groom seeing bride for the first time",
         "category": "Weddings",
         "width": 3,
         "height": 2
+      },
+       {
+        "id": "g-13",
+        "src": "https://images.unsplash.com/photo-1717672054431-a420638cd543?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Candid moment",
+        "category": "Portraits",
+        "width": 3,
+        "height": 2
+      },
+             {
+        "id": "g-14",
+        "src":"https://images.unsplash.com/photo-1722078514112-8fc9f3dc332e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Candid moment",
+        "category": "Details",
+        "width": 3,
+        "height": 2
       }
+
     ]
   },
   "testimonials": {

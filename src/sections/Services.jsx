@@ -92,7 +92,7 @@ function ServiceItem({ service, index }) {
       </div>
 
       {/* Image side */}
-      <div className={`relative ${isEven ? 'lg:order-2' : 'lg:order-1'}`}
+      <div className={`relative h-screen ${isEven ? 'lg:order-2' : 'lg:order-1'}`}
         style={{ minHeight: '360px' }}>
         <motion.div
           className="overflow-hidden h-full"
@@ -102,7 +102,7 @@ function ServiceItem({ service, index }) {
           <motion.img
             src={service.image}
             alt={service.alt}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover p-2"
             style={{ minHeight: '360px' }}
             loading="lazy"
             variants={{
