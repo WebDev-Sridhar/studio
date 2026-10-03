@@ -12,7 +12,7 @@ import Gallery from './sections/Gallery';
 import Testimonials from './sections/Testimonials';
 import Process from './sections/Process';
 import Inquiry from './sections/Inquiry';
-import siteData from './data/siteData.json';
+import siteData from './data/Yazhistudio.json';
 
 export default function App() {
   const { meta } = siteData;

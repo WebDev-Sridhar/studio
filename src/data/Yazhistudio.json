@@ -488,6 +488,12 @@
         "placeholder": "First & Last Name"
       },
       {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "number",
+        "placeholder": "Phone Number"
+      },
+      {
         "name": "email",
         "label": "Email Address",
         "type": "email",

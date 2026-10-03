@@ -24,6 +24,7 @@ export default function Inquiry() {
       'New Photography Enquiry',
       '━━━━━━━━━━━━━━━━━━━━',
       `Name: ${formData.name || '—'}`,
+      `Phone: ${formData.phone || '—'}`,
       `Email: ${formData.email || '—'}`,
       `Photography Type: ${formData.eventType || '—'}`,
       `Preferred Date: ${formData.eventDate || '—'}`,
@@ -160,8 +161,13 @@ export default function Inquiry() {
                       <FormField key={field.name} field={field} onChange={handleChange} />
                     ))}
                   </div>
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                    {inquiry.formFields.slice(4, 6).map((field) => (
+                      <FormField key={field.name} field={field} onChange={handleChange} />
+                    ))}
+                  </div>
 
-                  {inquiry.formFields.slice(4).map((field) => (
+                  {inquiry.formFields.slice(6).map((field) => (
                     <FormField key={field.name} field={field} onChange={handleChange} />
                   ))}
 
